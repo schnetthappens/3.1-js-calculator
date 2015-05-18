@@ -21,11 +21,12 @@ body {
 }
 
 .calculator {
-  @include outer-container(250px);
+  @include outer-container(450px);
   margin: 0 auto;
-  position: relative;
+  height: 400px;
+  /* position: relative;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-50%); */
 }
 
   .display {
